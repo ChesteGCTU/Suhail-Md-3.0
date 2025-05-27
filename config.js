@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "Bless Made It ❤!"
 
 global.devs = "" // Developer Contacts
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "233535064232";
 
 
 
@@ -34,7 +34,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] ======8===================\\
 global.style = process.env.STYLE   || Math.floor(Math.random()*6) || '0'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || Math.floor(Math.random()*3)  === 1 ?  "true" : "false" ;  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
@@ -75,8 +75,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-MD",
-  ownername:process.env.OWNER_NAME|| "Suhail:Shy<3",
+  botname : process.env.BOT_NAME  || "Blessy02",
+  ownername:process.env.OWNER_NAME|| "Bless 44G",
 
 
   errorChat : process.env.ERROR_CHAT || "",
